@@ -9,3 +9,5 @@ input.
 3. High tones shift to the penultimate element if possible H000→00H0. High tones can only replace unspecified elements and they leave a unspecified element behind.
 4. High tones cannot shift across low tones. If a low-toned element in the input intervenes between a high tone and the penultimate element, it only shifts up to the low-toned element: H000L000 → 000HL000; H000L000 cannot shift to 0000L0H0.
 5. High tones cannot surface on the final element. Underlyingly final high tones shift to the penult if possible 000H→00H0, and delete if it is occupied by a low tone: 00LH →00L0; 00LH cannot shift to 0HL0
+
+# adapted from UCL PLIN0034 coursework
