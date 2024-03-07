@@ -1,5 +1,5 @@
 # High-tone-shift-in-BMRS
-a BMRS grammar that models high tone shift based on the pattern in Kibondei
+a BMRS grammar models high tone shift based on the pattern in Kibondei
 
 Elements may be high-toned H, low-toned L, or unspecified for tone 0. As a simplification, you may assume that no more than one high-toned element is present in the
 input.
